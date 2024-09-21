@@ -10,6 +10,7 @@ var usersRouter = require('./routes/users');
 var {ejecutarProcesoVariasVeces} =require("./public/javascripts/webscrapping")
 var {ejecutarProcesoVariasVeces2} =require("./public/javascripts/webscrapping2")
 var {ejecutarProcesoVariasVeces3} =require("./public/javascripts/webscrapping3")
+var {ejecutarProcesoVariasVeces4} =require("./public/javascripts/webscrapping4")
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use('/users', usersRouter);
 ejecutarProcesoVariasVeces()
 ejecutarProcesoVariasVeces2()
 ejecutarProcesoVariasVeces3()
+ejecutarProcesoVariasVeces4()
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
