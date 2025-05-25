@@ -22,7 +22,7 @@ async function extraerDatosYGuardarJson(url, nombreArchivo) {
 
 // Función para ejecutar el proceso de scraping y cálculo de diferencias varias veces
 async function ejecutarProcesoVariasVeces2() {
-    const url = 'https://ninjakaizen.com/clan/668';
+    const url = 'https://ninjakaizen.com/clan/551';
 
     try {
         for (let i = 0; i < 999; i++) {
